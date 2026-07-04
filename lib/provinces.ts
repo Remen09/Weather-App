@@ -1,0 +1,28 @@
+import type { City } from "@/lib/weather";
+
+export const cambodianProvinces: City[] = [
+  { name: "Phnom Penh", lat: 11.5564, lon: 104.9282, country: "Cambodia" },
+  { name: "Battambang", lat: 13.1027, lon: 103.1982, country: "Cambodia", state: "Battambang" },
+  { name: "Siem Reap", lat: 13.362, lon: 103.86, country: "Cambodia", state: "Siem Reap" },
+  { name: "Sihanoukville", lat: 10.6093, lon: 103.529, country: "Cambodia", state: "Preah Sihanouk" },
+  { name: "Kampong Cham", lat: 11.9934, lon: 105.4635, country: "Cambodia", state: "Kampong Cham" },
+  { name: "Kampong Thom", lat: 12.712, lon: 104.888, country: "Cambodia", state: "Kampong Thom" },
+  { name: "Kampong Speu", lat: 11.453, lon: 104.521, country: "Cambodia", state: "Kampong Speu" },
+  { name: "Kampot", lat: 10.61, lon: 104.181, country: "Cambodia", state: "Kampot" },
+  { name: "Ta Khmau", lat: 11.483, lon: 104.95, country: "Cambodia", state: "Kandal" },
+  { name: "Takeo", lat: 10.983, lon: 104.783, country: "Cambodia", state: "Takeo" },
+  { name: "Pursat", lat: 12.539, lon: 103.919, country: "Cambodia", state: "Pursat" },
+  { name: "Sisophon", lat: 13.586, lon: 102.983, country: "Cambodia", state: "Banteay Meanchey" },
+  { name: "Prey Veng", lat: 11.484, lon: 105.325, country: "Cambodia", state: "Prey Veng" },
+  { name: "Svay Rieng", lat: 11.087, lon: 105.799, country: "Cambodia", state: "Svay Rieng" },
+  { name: "Banlung", lat: 13.738, lon: 107.004, country: "Cambodia", state: "Ratanakiri" },
+  { name: "Sen Monorom", lat: 12.456, lon: 107.187, country: "Cambodia", state: "Mondulkiri" },
+  { name: "Stung Treng", lat: 13.519, lon: 105.968, country: "Cambodia", state: "Stung Treng" },
+  { name: "Kratie", lat: 12.488, lon: 106.019, country: "Cambodia", state: "Kratie" },
+  { name: "Samraong", lat: 14.181, lon: 103.518, country: "Cambodia", state: "Oddar Meanchey" },
+  { name: "Kep", lat: 10.536, lon: 104.307, country: "Cambodia", state: "Kep" },
+  { name: "Pailin", lat: 12.849, lon: 102.609, country: "Cambodia", state: "Pailin" },
+  { name: "Suong", lat: 11.915, lon: 105.652, country: "Cambodia", state: "Tboung Khmum" },
+  { name: "Tbeng Meanchey", lat: 13.807, lon: 104.98, country: "Cambodia", state: "Preah Vihear" },
+  { name: "Koh Kong", lat: 11.615, lon: 102.984, country: "Cambodia", state: "Koh Kong" },
+];
