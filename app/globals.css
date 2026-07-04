@@ -127,4 +127,14 @@
   html {
     @apply font-sans;
   }
+
+  .bg-hero {
+  background-image: url("/images/bg-weather.jpg");
+}
+/* .weather-bg {
+  background-image: url("/images/bg-weather.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
 }
